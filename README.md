@@ -5,6 +5,8 @@
 2. Add the dataset to `./dataset` and name it `dataset.csv`
 3. Run `app.py` with `python app.py`
 
+
+# OLD
 ## About this app
 
 You can use this as a basic template for your JBI100 visualization project.
