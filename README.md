@@ -1,13 +1,13 @@
-# JBI100-example-app
+## Local installation
+1. Requirements: 
+   * Python 3.12
+   * Required modules installed
+2. Add the dataset to `./dataset` and name it `dataset.csv`
+3. Run `app.py` with `python app.py`
 
 ## About this app
 
 You can use this as a basic template for your JBI100 visualization project.
-
-## Requirements
-
-* Python 3 (add it to your path (system variables) to make sure you can access it from the command prompt)
-* Git (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ## How to run this app
 
