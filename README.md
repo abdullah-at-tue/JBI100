@@ -3,10 +3,10 @@
    * Python 3.12
    * Required modules installed
      * Do that by running `python - m pip -r requirements.txt`
-2. Add the dataset to `./dataset` with the name `dataset.csv`
-   * You can find meaning of the dataset attributes in `./dataset/case_detail_data_dictionary.pdf`
-   * There is a jupyter notebook in `./dataset` to get familiarized with the dataset we are using
-3. Run `app.py` with `python app.py` to run the web application
+2. Add the dataset to `./main/dataset` with the name `dataset.csv`
+   * You can find meaning of the dataset attributes in `./main/dataset/case_detail_data_dictionary.pdf`
+   * There is a jupyter notebook in `./main/dataset` to get familiarized with the dataset we are using
+3. Run `dev.py` with `python dev.py` to run the web application
 
 
 # OLD (as reference)
