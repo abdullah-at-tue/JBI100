@@ -2,11 +2,14 @@
 1. Requirements: 
    * Python 3.12
    * Required modules installed
-2. Add the dataset to `./dataset` and name it `dataset.csv`
-3. Run `app.py` with `python app.py`
+     * Do that by running `python - m pip -r requirements.txt`
+2. Add the dataset to `./dataset` with the name `dataset.csv`
+   * You can find meaning of the dataset attributes in `./dataset/case_detail_data_dictionary.pdf`
+   * There is a jupyter notebook in `./dataset` to get familiarized with the dataset we are using
+3. Run `app.py` with `python app.py` to run the web application
 
 
-# OLD
+# OLD (as reference)
 ## About this app
 
 You can use this as a basic template for your JBI100 visualization project.
