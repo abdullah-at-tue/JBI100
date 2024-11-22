@@ -8,6 +8,8 @@
    * There is a jupyter notebook in `./main/dataset` to get familiarized with the dataset we are using
 3. Run `dev.py` with `python dev.py` to run the web application
 
+## Production
+If you just want to take a look without running it locally, you can have a look at https://jbi100.abdullahalhariri.com 
 
 # OLD (as reference)
 ## About this app
