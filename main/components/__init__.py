@@ -1,3 +1,3 @@
-from main.components.main import component as main
-from main.components.menu import component as menu
-from main.components.two_scatter_plots import component as two_scatter_plots
+from main.components.heatmap import component as heatmap
+from main.components.bubble_chart import component as bubble_chart
+from main.components.parallel_coordinates import component as parallel_coordinates

@@ -1,48 +1,39 @@
-body {
-    background-color: #f9f9f9;
-    color: #333333;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 15px;
-    margin: 0px;
+.layout {
+    height: 100vh !important;
+    margin: 0;
+}
+.row-graph {
+    width: 100vw;
+    height: 60vh;
 }
 
-#left-column {
-    padding: 20px 2rem;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+.mapboxgl-ctrl-bottom-right {
+    display: none !important;
 }
 
-#right-column {
-    background-color: #f4f4f4;
-    padding: 0rem 2rem;
-    min-height: 100vh;
+#bubble_chart {
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    top: 0;
+    left: 0;
 }
 
-h5 {
-    color: #2c8cff;
-    font-weight: 300;
+#heatmap, .mapboxgl-map, .mapboxgl-canvas {
+    position: absolute;
+    width: 50vw !important;
+    height: 50vh !important;
+    top: 0;
+    right: 0;
 }
 
-#intro {
-    margin: 20px 0px;
-    text-align: justify;
+#multi_axis {
+    position: absolute;
+    width: 100vw !important;
+    height: 50vh !important;
+    bottom: 0;
 }
 
-#control-card label {
-    font-weight: bold;
-}
-
-.graph_card {
-    background-color: white;
-    border-radius: 0.675rem;
-    padding: 1rem;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.graph_card h6 {
-    margin:  0 7px;
-    padding-bottom: 7px;
-    border-bottom:  1px solid #ccc;
+a[href="https://plotly.com/"] {
+    display: none !important;
 }
