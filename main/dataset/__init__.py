@@ -13,7 +13,7 @@ df_us_zips = pd.read_csv(__path__[0] + "/uszips.csv").set_index('zip')
 
 if 'lat' not in df or 'lng' not in df:
     for i, (index, row)  in enumerate(df.iterrows(), start=1):
-        print(f"[PRE-ANALYSE] LOADING LAT AND LNG; Progress: {round(i/889447*100, 2)}%")
+        print(f"[ONE TIME PREPROCESSING DATASET] LOADING LAT AND LNG; {round(i/889447*100, 2)}%")
 
         zip_code: int = int(row['zip_code'])
         if zip_code in df_us_zips.index:
@@ -26,7 +26,7 @@ if 'lat' not in df or 'lng' not in df:
     df.to_csv(__path__[0] + "/dataset.csv")
 
 if 'incident_datetime' not in df:
-    print("[PRE-ANALYSE] COMPUTING INCIDENT DATETIME;")
+    print("[ONE TIME PREPROCESSING DATASET] COMPUTING INCIDENT DATETIME;")
 
     df['incident_datetime'] = pd.to_datetime(df['date_of_incident'] + ' ' + df['time_of_incident'])
     df['incident_datetime'] = df['incident_datetime'].astype('datetime64[ns]')
